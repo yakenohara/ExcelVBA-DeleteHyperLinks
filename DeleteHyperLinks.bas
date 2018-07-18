@@ -1,8 +1,8 @@
-Attribute VB_Name = "ハイパーリンクの削除"
+Attribute VB_Name = "DeleteHyperLinks"
 '選択範囲のハイパーリンクを削除する
 '
 '
-Public Sub ハイパーリンクの削除()
+Public Sub DeleteHyperLinks()
 
     Dim hyperlinksObj As Hyperlinks
     Dim tmpBk As Workbook
